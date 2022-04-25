@@ -1,0 +1,18 @@
+
+# the twitter bearer token goes here
+token: "AAAAAAAAAAAAAAAAAAAAABFAQwEAAAAAQ9vtzjZIBlMoOGJoscQsZV%2BOM08%3DFuGNofh320qDE0qRthISHmRUhROgSdlGjF135Aq7sgfQBdGVA7"
+
+charBetweenLineJump: 20
+
+hologram:
+  firstLine: "\u00A71{name}\u00A7r"    # color code
+  content: "{centent}"                 # https://minecraft.tools/fr/color-code.php
+  lastLine: "- \u00A79{author}\u00A7r" # https://minecraft.tools/en/color-code.php
+
+# storage of hologrames
+data:
+  minecraft:
+    name: "#minecraft"
+    world: "world"
+    pos: "0 45 0"
+    query: "%23minecraft%20(lang%3Afr%20OR%20lang%3Aen)"

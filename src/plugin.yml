@@ -1,0 +1,20 @@
+name: TweeterHolo
+main: fr.tretinv3.twitterHolo.Plugin
+version: 1.0.0
+author: TretinV3
+depend:
+  - HolographicDisplays
+api-version: 1.18
+commands:
+  twitter:
+    description: shearsh in twitter hashtag
+    usage: /<command> <query>
+    permission: twitterHolo.admin
+  tcreate:
+    description: create holo with the query
+    usage: /<command> <query>
+    permission: twitterHolo.admin
+  tclear:
+    description: clear all hologram
+    usage: /<command>
+    permission: twitterHolo.admin
